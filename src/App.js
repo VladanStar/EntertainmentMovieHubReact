@@ -1,14 +1,15 @@
-
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
+      <Header />
      
-       <span>  🎬 Entertainment Hub 🎥</span>
-    
     </div>
   );
 }
 
 export default App;
+//npm i @material-ui/core @material-ui/icons axios
